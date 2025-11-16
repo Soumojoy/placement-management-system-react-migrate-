@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import LoginForm from '../comps/LoginForm';
+import SignupForm from '../comps/SignupForm';
+import Login from './Login';
 
 function Student() {
   return (
@@ -10,6 +13,8 @@ function Student() {
 
    </div>
     <div>Student</div>
+    <SignupForm/>
+   <Login/>
        </>
   )
 }

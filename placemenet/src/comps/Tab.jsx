@@ -9,10 +9,13 @@ function Tab(props) {
 
    {/*  */}
     <div className='tab-card'>
+    
   <Link to={`/${props.name}`}>
     {props.name}
   </Link>
 </div>
+
+
    </>
   )
 }
